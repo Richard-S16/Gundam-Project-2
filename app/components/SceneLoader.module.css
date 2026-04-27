@@ -1,0 +1,25 @@
+.sceneLoader {
+  background: black;
+  height: 75vh;
+}
+
+.sceneLoader video {
+  height: 100%;
+  width: -webkit-fill-available;
+  width: stretch;
+}
+
+.defaultTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+  padding-top: 10%;
+}
+
+.imageCardRow {
+  display: flex;
+  justify-content: space-around;
+}
