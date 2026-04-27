@@ -2,6 +2,12 @@
   background: black;
   width: 300px;
   height: 300px;
+  z-index: 10;
+
+  @media(min-width: 1282px) {
+    width: 350px;
+    height: 350px;
+  }
 }
 
 .gundamImages {
