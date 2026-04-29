@@ -1,3 +1,17 @@
+/* Design tokens */
+:root {
+  --bg: #0a0a0f;
+  --surface: #151520;
+  --surface-hover: #1e1e2e;
+  --accent: #d01f1f;
+  --accent-glow: rgba(208, 31, 31, 0.5);
+  --border: rgba(208, 31, 31, 0.3);
+  --text: #f0f0f0;
+  --text-muted: #888899;
+  --font-display: "Orbitron", sans-serif;
+  --font-ui: "Rajdhani", sans-serif;
+}
+
 /* Normalize-style reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -6,6 +20,18 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100dvh;
+  font-family: var(--font-ui), sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 
