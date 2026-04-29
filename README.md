@@ -1,3 +1,7 @@
+<img width="1146" height="871" alt="gundam-app" src="https://github.com/user-attachments/assets/37c299e0-aa63-4ffb-b0d2-357fa13a38a3" />
+
+<img width="1142" height="872" alt="gundam-app-2" src="https://github.com/user-attachments/assets/417e0a8b-c84b-466b-99cb-1b69236a7c47" />
+
 # Gundam Project 2
 
 An interactive Mobile Suit Gundam character selector built with Next.js 16, React 19, and TypeScript. Pick a character to load their video scene with smooth animated transitions.
